@@ -3,15 +3,21 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+body{
+    background-image: url("../img/aerial-view-business-team.jpg");
+    background-size: cover;
+}
 .container{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 68vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 450px;
     margin: 100px auto;
-    border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0px 0px 15px rgba(237, 235, 235, 0.5);
 }
 .backSeat_logo{
     margin-top: 20px;
@@ -40,6 +46,7 @@ input{
     border-radius: 10px;
     border: 1px solid grey;
 }
+
 button{
     margin: 7px;
     margin-bottom: 30px;
@@ -47,9 +54,15 @@ button{
     height: 35px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(59, 125, 238);
+    background: linear-gradient(to right, rgb(138, 209, 138), rgb(27, 124, 235));
     color: #fff;
     font-size: 20px;
+}
+button:hover{
+    background: linear-gradient(to right, rgb(105, 182, 105), rgb(27, 112, 208));
+}
+button:active{
+    background: linear-gradient(to right, rgb(81, 149, 81), rgb(22, 87, 161));
 }
 .sign_up{
     text-decoration: none;
